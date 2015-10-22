@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+     android:background=  "@drawable/layout"
+    android:orientation="vertical" >
+ 
+ 
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkBox"
+        android:textSize="18sp"
+        android:textColor="#00008B" />
+        <TextView
+        android:id="@+id/itemsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkBox"
+        android:layout_below="@+id/lblListHeader"
+        android:textSize="13sp"
+        android:textColor="#00008B" />
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/delbutton" 
+        style="@style/ButtonText" 
+        android:text="@string/Delete"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+         />
+    
+</RelativeLayout> 
+

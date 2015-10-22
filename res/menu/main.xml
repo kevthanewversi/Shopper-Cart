@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:shop="http://schemas.android.com/apk/res-auto" >
+<!-- Overflow will display always -->    
+
+<item 
+    android:id="@+id/action_share"
+    android:icon="@drawable/ic_action_share"
+    shop:showAsAction="always"
+    android:title="share" />
+
+</menu>
